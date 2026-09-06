@@ -1690,7 +1690,7 @@ __metadata:
     "@edge-runtime/vm": "npm:5.0.0"
     "@flex-development/commitlint-config": "npm:1.0.1"
     "@flex-development/docmark": "npm:1.0.0-alpha.1"
-    "@flex-development/docmark-factory-space": "npm:1.0.0-alpha.1"
+    "@flex-development/docmark-factory-space": "npm:1.0.0-dev.1"
     "@flex-development/docmark-util-symbol": "npm:1.1.0-alpha.1"
     "@flex-development/docmark-util-types": "npm:1.1.0-alpha.1"
     "@flex-development/eslint-config": "npm:1.1.1"
@@ -1751,6 +1751,17 @@ __metadata:
     "@flex-development/mark-util-character": "npm:1.1.0"
     micromark-util-types: "npm:2.0.2"
   checksum: 10/437898707a08e9cbc5c98d4bf798c311f6b65a1f3252b3d366de258a7c537da4e833deb1c8f876eeb189f3dd9ce730cc0b787afac7625f1002aa32c8c5a28ede
+  languageName: node
+  linkType: hard
+
+"@flex-development/docmark-factory-space@npm:1.0.0-dev.1":
+  version: 1.0.0-dev.1
+  resolution: "@flex-development/docmark-factory-space@npm:1.0.0-dev.1"
+  dependencies:
+    "@flex-development/docmark-util-types": "npm:1.0.0-dev.1"
+    "@flex-development/mark-util-character": "npm:1.1.0"
+    micromark-util-types: "npm:2.0.2"
+  checksum: 10/8b0a8ff805300cc4622ed72d78254c8b657119d64d5aa4e8ef2810009861870a620127bb32ccf88511a4474d36e4a448b5d70f7e528c4af993904f6a56a5fd31
   languageName: node
   linkType: hard
 
