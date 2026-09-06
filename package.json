@@ -1,7 +1,7 @@
 {
   "name": "@flex-development/docmark-extension-hash-comment",
   "description": "docmark extension to parse hash comments",
-  "version": "0.0.0",
+  "version": "1.0.0-alpha.1",
   "keywords": [
     "bash",
     "comment",
