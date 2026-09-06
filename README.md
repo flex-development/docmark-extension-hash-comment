@@ -80,11 +80,11 @@ This package exports the identifiers [`hashComments`][api-hash-comments] and [`h
 
 The default export is `hashComments`.
 
-### `hashComments`
+### [`hashComments`](./src/hash-comments.mts)
 
 **TODO**: `hashComments`
 
-### `hashComment`
+### [`hashComment`](./src/hash-comment.mts)
 
 **TODO**: `hashComment`
 

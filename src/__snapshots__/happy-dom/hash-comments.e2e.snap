@@ -1,0 +1,2999 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`e2e:hashComments > should parse hash comments ("multiline/01.txt",undefined) 1`] = `
+[
+  [
+    "enter",
+    {
+      "_container": true,
+      "_kind": "hash",
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 7,
+        "column": 2,
+        "line": 4,
+        "offset": 11,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 1,
+        "line": 1,
+        "offset": 0,
+      },
+      "type": "comment",
+    },
+  ],
+  [
+    "enter",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 1,
+        "column": 2,
+        "line": 1,
+        "offset": 1,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 1,
+        "line": 1,
+        "offset": 0,
+      },
+      "type": "commentLinePrefix",
+    },
+  ],
+  [
+    "enter",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 1,
+        "column": 2,
+        "line": 1,
+        "offset": 1,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 1,
+        "line": 1,
+        "offset": 0,
+      },
+      "type": "commentLineMarker",
+      "value": "#",
+    },
+  ],
+  [
+    "exit",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 1,
+        "column": 2,
+        "line": 1,
+        "offset": 1,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 1,
+        "line": 1,
+        "offset": 0,
+      },
+      "type": "commentLineMarker",
+      "value": "#",
+    },
+  ],
+  [
+    "exit",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 1,
+        "column": 2,
+        "line": 1,
+        "offset": 1,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 1,
+        "line": 1,
+        "offset": 0,
+      },
+      "type": "commentLinePrefix",
+    },
+  ],
+  [
+    "enter",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 1,
+        "column": 1,
+        "line": 2,
+        "offset": 2,
+      },
+      "start": {
+        "_bufferIndex": -1,
+        "_index": 0,
+        "column": 2,
+        "line": 1,
+        "offset": 1,
+      },
+      "type": "lineEndingBlank",
+      "value": "
+",
+    },
+  ],
+  [
+    "exit",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 1,
+        "column": 1,
+        "line": 2,
+        "offset": 2,
+      },
+      "start": {
+        "_bufferIndex": -1,
+        "_index": 0,
+        "column": 2,
+        "line": 1,
+        "offset": 1,
+      },
+      "type": "lineEndingBlank",
+      "value": "
+",
+    },
+  ],
+  [
+    "enter",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 3,
+        "column": 3,
+        "line": 2,
+        "offset": 4,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 2,
+        "column": 1,
+        "line": 2,
+        "offset": 2,
+      },
+      "type": "commentLinePrefix",
+    },
+  ],
+  [
+    "enter",
+    {
+      "end": {
+        "_bufferIndex": 1,
+        "_index": 2,
+        "column": 2,
+        "line": 2,
+        "offset": 3,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 2,
+        "column": 1,
+        "line": 2,
+        "offset": 2,
+      },
+      "type": "commentLineMarker",
+      "value": "#",
+    },
+  ],
+  [
+    "exit",
+    {
+      "end": {
+        "_bufferIndex": 1,
+        "_index": 2,
+        "column": 2,
+        "line": 2,
+        "offset": 3,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 2,
+        "column": 1,
+        "line": 2,
+        "offset": 2,
+      },
+      "type": "commentLineMarker",
+      "value": "#",
+    },
+  ],
+  [
+    "enter",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 3,
+        "column": 3,
+        "line": 2,
+        "offset": 4,
+      },
+      "start": {
+        "_bufferIndex": 1,
+        "_index": 2,
+        "column": 2,
+        "line": 2,
+        "offset": 3,
+      },
+      "type": "commentPadding",
+      "value": " ",
+    },
+  ],
+  [
+    "exit",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 3,
+        "column": 3,
+        "line": 2,
+        "offset": 4,
+      },
+      "start": {
+        "_bufferIndex": 1,
+        "_index": 2,
+        "column": 2,
+        "line": 2,
+        "offset": 3,
+      },
+      "type": "commentPadding",
+      "value": " ",
+    },
+  ],
+  [
+    "exit",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 3,
+        "column": 3,
+        "line": 2,
+        "offset": 4,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 2,
+        "column": 1,
+        "line": 2,
+        "offset": 2,
+      },
+      "type": "commentLinePrefix",
+    },
+  ],
+  [
+    "enter",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 2,
+        "column": 1,
+        "line": 3,
+        "offset": 5,
+      },
+      "start": {
+        "_bufferIndex": -1,
+        "_index": 1,
+        "column": 3,
+        "line": 2,
+        "offset": 4,
+      },
+      "type": "lineEndingBlank",
+      "value": "
+",
+    },
+  ],
+  [
+    "exit",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 2,
+        "column": 1,
+        "line": 3,
+        "offset": 5,
+      },
+      "start": {
+        "_bufferIndex": -1,
+        "_index": 1,
+        "column": 3,
+        "line": 2,
+        "offset": 4,
+      },
+      "type": "lineEndingBlank",
+      "value": "
+",
+    },
+  ],
+  [
+    "enter",
+    {
+      "end": {
+        "_bufferIndex": 2,
+        "_index": 4,
+        "column": 3,
+        "line": 3,
+        "offset": 7,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 4,
+        "column": 1,
+        "line": 3,
+        "offset": 5,
+      },
+      "type": "commentLinePrefix",
+    },
+  ],
+  [
+    "enter",
+    {
+      "end": {
+        "_bufferIndex": 1,
+        "_index": 4,
+        "column": 2,
+        "line": 3,
+        "offset": 6,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 4,
+        "column": 1,
+        "line": 3,
+        "offset": 5,
+      },
+      "type": "commentLineMarker",
+      "value": "#",
+    },
+  ],
+  [
+    "exit",
+    {
+      "end": {
+        "_bufferIndex": 1,
+        "_index": 4,
+        "column": 2,
+        "line": 3,
+        "offset": 6,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 4,
+        "column": 1,
+        "line": 3,
+        "offset": 5,
+      },
+      "type": "commentLineMarker",
+      "value": "#",
+    },
+  ],
+  [
+    "enter",
+    {
+      "end": {
+        "_bufferIndex": 2,
+        "_index": 4,
+        "column": 3,
+        "line": 3,
+        "offset": 7,
+      },
+      "start": {
+        "_bufferIndex": 1,
+        "_index": 4,
+        "column": 2,
+        "line": 3,
+        "offset": 6,
+      },
+      "type": "commentPadding",
+      "value": " ",
+    },
+  ],
+  [
+    "exit",
+    {
+      "end": {
+        "_bufferIndex": 2,
+        "_index": 4,
+        "column": 3,
+        "line": 3,
+        "offset": 7,
+      },
+      "start": {
+        "_bufferIndex": 1,
+        "_index": 4,
+        "column": 2,
+        "line": 3,
+        "offset": 6,
+      },
+      "type": "commentPadding",
+      "value": " ",
+    },
+  ],
+  [
+    "exit",
+    {
+      "end": {
+        "_bufferIndex": 2,
+        "_index": 4,
+        "column": 3,
+        "line": 3,
+        "offset": 7,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 4,
+        "column": 1,
+        "line": 3,
+        "offset": 5,
+      },
+      "type": "commentLinePrefix",
+    },
+  ],
+  [
+    "enter",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 3,
+        "column": 5,
+        "line": 3,
+        "offset": 9,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 2,
+        "column": 3,
+        "line": 3,
+        "offset": 7,
+      },
+      "type": "linePrefix",
+      "value": "  ",
+    },
+  ],
+  [
+    "exit",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 3,
+        "column": 5,
+        "line": 3,
+        "offset": 9,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 2,
+        "column": 3,
+        "line": 3,
+        "offset": 7,
+      },
+      "type": "linePrefix",
+      "value": "  ",
+    },
+  ],
+  [
+    "enter",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 4,
+        "column": 1,
+        "line": 4,
+        "offset": 10,
+      },
+      "start": {
+        "_bufferIndex": -1,
+        "_index": 3,
+        "column": 5,
+        "line": 3,
+        "offset": 9,
+      },
+      "type": "lineEndingBlank",
+      "value": "
+",
+    },
+  ],
+  [
+    "exit",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 4,
+        "column": 1,
+        "line": 4,
+        "offset": 10,
+      },
+      "start": {
+        "_bufferIndex": -1,
+        "_index": 3,
+        "column": 5,
+        "line": 3,
+        "offset": 9,
+      },
+      "type": "lineEndingBlank",
+      "value": "
+",
+    },
+  ],
+  [
+    "enter",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 7,
+        "column": 2,
+        "line": 4,
+        "offset": 11,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 6,
+        "column": 1,
+        "line": 4,
+        "offset": 10,
+      },
+      "type": "commentLinePrefix",
+    },
+  ],
+  [
+    "enter",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 7,
+        "column": 2,
+        "line": 4,
+        "offset": 11,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 6,
+        "column": 1,
+        "line": 4,
+        "offset": 10,
+      },
+      "type": "commentLineMarker",
+      "value": "#",
+    },
+  ],
+  [
+    "exit",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 7,
+        "column": 2,
+        "line": 4,
+        "offset": 11,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 6,
+        "column": 1,
+        "line": 4,
+        "offset": 10,
+      },
+      "type": "commentLineMarker",
+      "value": "#",
+    },
+  ],
+  [
+    "exit",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 7,
+        "column": 2,
+        "line": 4,
+        "offset": 11,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 6,
+        "column": 1,
+        "line": 4,
+        "offset": 10,
+      },
+      "type": "commentLinePrefix",
+    },
+  ],
+  [
+    "exit",
+    {
+      "_container": true,
+      "_kind": "hash",
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 7,
+        "column": 2,
+        "line": 4,
+        "offset": 11,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 1,
+        "line": 1,
+        "offset": 0,
+      },
+      "type": "comment",
+    },
+  ],
+  [
+    "enter",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 8,
+        "column": 2,
+        "line": 4,
+        "offset": 11,
+      },
+      "start": {
+        "_bufferIndex": -1,
+        "_index": 7,
+        "column": 2,
+        "line": 4,
+        "offset": 11,
+      },
+      "type": "eoc",
+    },
+  ],
+  [
+    "exit",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 8,
+        "column": 2,
+        "line": 4,
+        "offset": 11,
+      },
+      "start": {
+        "_bufferIndex": -1,
+        "_index": 7,
+        "column": 2,
+        "line": 4,
+        "offset": 11,
+      },
+      "type": "eoc",
+    },
+  ],
+]
+`;
+
+exports[`e2e:hashComments > should parse hash comments ("multiline/02.txt",undefined) 1`] = `
+[
+  [
+    "enter",
+    {
+      "_container": true,
+      "_kind": "hash",
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 6,
+        "column": 27,
+        "line": 4,
+        "offset": 63,
+      },
+      "start": {
+        "_bufferIndex": 4,
+        "_index": 3,
+        "column": 5,
+        "line": 3,
+        "offset": 10,
+      },
+      "type": "comment",
+    },
+  ],
+  [
+    "enter",
+    {
+      "end": {
+        "_bufferIndex": 6,
+        "_index": 3,
+        "column": 7,
+        "line": 3,
+        "offset": 12,
+      },
+      "start": {
+        "_bufferIndex": 4,
+        "_index": 3,
+        "column": 5,
+        "line": 3,
+        "offset": 10,
+      },
+      "type": "commentLinePrefix",
+    },
+  ],
+  [
+    "enter",
+    {
+      "end": {
+        "_bufferIndex": 5,
+        "_index": 3,
+        "column": 6,
+        "line": 3,
+        "offset": 11,
+      },
+      "start": {
+        "_bufferIndex": 4,
+        "_index": 3,
+        "column": 5,
+        "line": 3,
+        "offset": 10,
+      },
+      "type": "commentLineMarker",
+      "value": "#",
+    },
+  ],
+  [
+    "exit",
+    {
+      "end": {
+        "_bufferIndex": 5,
+        "_index": 3,
+        "column": 6,
+        "line": 3,
+        "offset": 11,
+      },
+      "start": {
+        "_bufferIndex": 4,
+        "_index": 3,
+        "column": 5,
+        "line": 3,
+        "offset": 10,
+      },
+      "type": "commentLineMarker",
+      "value": "#",
+    },
+  ],
+  [
+    "enter",
+    {
+      "end": {
+        "_bufferIndex": 6,
+        "_index": 3,
+        "column": 7,
+        "line": 3,
+        "offset": 12,
+      },
+      "start": {
+        "_bufferIndex": 5,
+        "_index": 3,
+        "column": 6,
+        "line": 3,
+        "offset": 11,
+      },
+      "type": "commentPadding",
+      "value": " ",
+    },
+  ],
+  [
+    "exit",
+    {
+      "end": {
+        "_bufferIndex": 6,
+        "_index": 3,
+        "column": 7,
+        "line": 3,
+        "offset": 12,
+      },
+      "start": {
+        "_bufferIndex": 5,
+        "_index": 3,
+        "column": 6,
+        "line": 3,
+        "offset": 11,
+      },
+      "type": "commentPadding",
+      "value": " ",
+    },
+  ],
+  [
+    "exit",
+    {
+      "end": {
+        "_bufferIndex": 6,
+        "_index": 3,
+        "column": 7,
+        "line": 3,
+        "offset": 12,
+      },
+      "start": {
+        "_bufferIndex": 4,
+        "_index": 3,
+        "column": 5,
+        "line": 3,
+        "offset": 10,
+      },
+      "type": "commentLinePrefix",
+    },
+  ],
+  [
+    "enter",
+    {
+      "_container": true,
+      "_region": true,
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 3,
+        "column": 27,
+        "line": 4,
+        "offset": 63,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 7,
+        "line": 3,
+        "offset": 12,
+      },
+      "type": "summary",
+    },
+  ],
+  [
+    "enter",
+    {
+      "end": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 7,
+        "line": 3,
+        "offset": 12,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 7,
+        "line": 3,
+        "offset": 12,
+      },
+      "type": "summaryMarker",
+    },
+  ],
+  [
+    "exit",
+    {
+      "end": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 7,
+        "line": 3,
+        "offset": 12,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 7,
+        "line": 3,
+        "offset": 12,
+      },
+      "type": "summaryMarker",
+    },
+  ],
+  [
+    "enter",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 3,
+        "column": 27,
+        "line": 4,
+        "offset": 63,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 7,
+        "line": 3,
+        "offset": 12,
+      },
+      "type": "content",
+    },
+  ],
+  [
+    "enter",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 3,
+        "column": 27,
+        "line": 4,
+        "offset": 63,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 7,
+        "line": 3,
+        "offset": 12,
+      },
+      "type": "paragraph",
+    },
+  ],
+  [
+    "enter",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 1,
+        "column": 31,
+        "line": 3,
+        "offset": 36,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 7,
+        "line": 3,
+        "offset": 12,
+      },
+      "type": "data",
+      "value": "get workspace directory.",
+    },
+  ],
+  [
+    "exit",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 1,
+        "column": 31,
+        "line": 3,
+        "offset": 36,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 7,
+        "line": 3,
+        "offset": 12,
+      },
+      "type": "data",
+      "value": "get workspace directory.",
+    },
+  ],
+  [
+    "enter",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 2,
+        "column": 1,
+        "line": 4,
+        "offset": 37,
+      },
+      "start": {
+        "_bufferIndex": -1,
+        "_index": 1,
+        "column": 31,
+        "line": 3,
+        "offset": 36,
+      },
+      "type": "lineEnding",
+      "value": "
+",
+    },
+  ],
+  [
+    "exit",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 2,
+        "column": 1,
+        "line": 4,
+        "offset": 37,
+      },
+      "start": {
+        "_bufferIndex": -1,
+        "_index": 1,
+        "column": 31,
+        "line": 3,
+        "offset": 36,
+      },
+      "type": "lineEnding",
+      "value": "
+",
+    },
+  ],
+  [
+    "enter",
+    {
+      "end": {
+        "_bufferIndex": 4,
+        "_index": 5,
+        "column": 5,
+        "line": 4,
+        "offset": 41,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 5,
+        "column": 1,
+        "line": 4,
+        "offset": 37,
+      },
+      "type": "commentPadding",
+      "value": "    ",
+    },
+  ],
+  [
+    "exit",
+    {
+      "end": {
+        "_bufferIndex": 4,
+        "_index": 5,
+        "column": 5,
+        "line": 4,
+        "offset": 41,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 5,
+        "column": 1,
+        "line": 4,
+        "offset": 37,
+      },
+      "type": "commentPadding",
+      "value": "    ",
+    },
+  ],
+  [
+    "enter",
+    {
+      "end": {
+        "_bufferIndex": 6,
+        "_index": 5,
+        "column": 7,
+        "line": 4,
+        "offset": 43,
+      },
+      "start": {
+        "_bufferIndex": 4,
+        "_index": 5,
+        "column": 5,
+        "line": 4,
+        "offset": 41,
+      },
+      "type": "commentLinePrefix",
+    },
+  ],
+  [
+    "enter",
+    {
+      "end": {
+        "_bufferIndex": 5,
+        "_index": 5,
+        "column": 6,
+        "line": 4,
+        "offset": 42,
+      },
+      "start": {
+        "_bufferIndex": 4,
+        "_index": 5,
+        "column": 5,
+        "line": 4,
+        "offset": 41,
+      },
+      "type": "commentLineMarker",
+      "value": "#",
+    },
+  ],
+  [
+    "exit",
+    {
+      "end": {
+        "_bufferIndex": 5,
+        "_index": 5,
+        "column": 6,
+        "line": 4,
+        "offset": 42,
+      },
+      "start": {
+        "_bufferIndex": 4,
+        "_index": 5,
+        "column": 5,
+        "line": 4,
+        "offset": 41,
+      },
+      "type": "commentLineMarker",
+      "value": "#",
+    },
+  ],
+  [
+    "enter",
+    {
+      "end": {
+        "_bufferIndex": 6,
+        "_index": 5,
+        "column": 7,
+        "line": 4,
+        "offset": 43,
+      },
+      "start": {
+        "_bufferIndex": 5,
+        "_index": 5,
+        "column": 6,
+        "line": 4,
+        "offset": 42,
+      },
+      "type": "commentPadding",
+      "value": " ",
+    },
+  ],
+  [
+    "exit",
+    {
+      "end": {
+        "_bufferIndex": 6,
+        "_index": 5,
+        "column": 7,
+        "line": 4,
+        "offset": 43,
+      },
+      "start": {
+        "_bufferIndex": 5,
+        "_index": 5,
+        "column": 6,
+        "line": 4,
+        "offset": 42,
+      },
+      "type": "commentPadding",
+      "value": " ",
+    },
+  ],
+  [
+    "exit",
+    {
+      "end": {
+        "_bufferIndex": 6,
+        "_index": 5,
+        "column": 7,
+        "line": 4,
+        "offset": 43,
+      },
+      "start": {
+        "_bufferIndex": 4,
+        "_index": 5,
+        "column": 5,
+        "line": 4,
+        "offset": 41,
+      },
+      "type": "commentLinePrefix",
+    },
+  ],
+  [
+    "enter",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 3,
+        "column": 27,
+        "line": 4,
+        "offset": 63,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 2,
+        "column": 7,
+        "line": 4,
+        "offset": 43,
+      },
+      "type": "data",
+      "value": "skip root workspace.",
+    },
+  ],
+  [
+    "exit",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 3,
+        "column": 27,
+        "line": 4,
+        "offset": 63,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 2,
+        "column": 7,
+        "line": 4,
+        "offset": 43,
+      },
+      "type": "data",
+      "value": "skip root workspace.",
+    },
+  ],
+  [
+    "exit",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 3,
+        "column": 27,
+        "line": 4,
+        "offset": 63,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 7,
+        "line": 3,
+        "offset": 12,
+      },
+      "type": "paragraph",
+    },
+  ],
+  [
+    "exit",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 3,
+        "column": 27,
+        "line": 4,
+        "offset": 63,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 7,
+        "line": 3,
+        "offset": 12,
+      },
+      "type": "content",
+    },
+  ],
+  [
+    "exit",
+    {
+      "_container": true,
+      "_region": true,
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 3,
+        "column": 27,
+        "line": 4,
+        "offset": 63,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 7,
+        "line": 3,
+        "offset": 12,
+      },
+      "type": "summary",
+    },
+  ],
+  [
+    "exit",
+    {
+      "_container": true,
+      "_kind": "hash",
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 6,
+        "column": 27,
+        "line": 4,
+        "offset": 63,
+      },
+      "start": {
+        "_bufferIndex": 4,
+        "_index": 3,
+        "column": 5,
+        "line": 3,
+        "offset": 10,
+      },
+      "type": "comment",
+    },
+  ],
+  [
+    "enter",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 7,
+        "column": 27,
+        "line": 4,
+        "offset": 63,
+      },
+      "start": {
+        "_bufferIndex": -1,
+        "_index": 6,
+        "column": 27,
+        "line": 4,
+        "offset": 63,
+      },
+      "type": "eoc",
+    },
+  ],
+  [
+    "exit",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 7,
+        "column": 27,
+        "line": 4,
+        "offset": 63,
+      },
+      "start": {
+        "_bufferIndex": -1,
+        "_index": 6,
+        "column": 27,
+        "line": 4,
+        "offset": 63,
+      },
+      "type": "eoc",
+    },
+  ],
+]
+`;
+
+exports[`e2e:hashComments > should parse hash comments ("no-eol/01.txt",undefined) 1`] = `
+[
+  [
+    "enter",
+    {
+      "_container": true,
+      "_kind": "hash",
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 1,
+        "column": 36,
+        "line": 1,
+        "offset": 35,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 1,
+        "line": 1,
+        "offset": 0,
+      },
+      "type": "comment",
+    },
+  ],
+  [
+    "enter",
+    {
+      "end": {
+        "_bufferIndex": 2,
+        "_index": 0,
+        "column": 3,
+        "line": 1,
+        "offset": 2,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 1,
+        "line": 1,
+        "offset": 0,
+      },
+      "type": "commentLinePrefix",
+    },
+  ],
+  [
+    "enter",
+    {
+      "end": {
+        "_bufferIndex": 1,
+        "_index": 0,
+        "column": 2,
+        "line": 1,
+        "offset": 1,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 1,
+        "line": 1,
+        "offset": 0,
+      },
+      "type": "commentLineMarker",
+      "value": "#",
+    },
+  ],
+  [
+    "exit",
+    {
+      "end": {
+        "_bufferIndex": 1,
+        "_index": 0,
+        "column": 2,
+        "line": 1,
+        "offset": 1,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 1,
+        "line": 1,
+        "offset": 0,
+      },
+      "type": "commentLineMarker",
+      "value": "#",
+    },
+  ],
+  [
+    "enter",
+    {
+      "end": {
+        "_bufferIndex": 2,
+        "_index": 0,
+        "column": 3,
+        "line": 1,
+        "offset": 2,
+      },
+      "start": {
+        "_bufferIndex": 1,
+        "_index": 0,
+        "column": 2,
+        "line": 1,
+        "offset": 1,
+      },
+      "type": "commentPadding",
+      "value": " ",
+    },
+  ],
+  [
+    "exit",
+    {
+      "end": {
+        "_bufferIndex": 2,
+        "_index": 0,
+        "column": 3,
+        "line": 1,
+        "offset": 2,
+      },
+      "start": {
+        "_bufferIndex": 1,
+        "_index": 0,
+        "column": 2,
+        "line": 1,
+        "offset": 1,
+      },
+      "type": "commentPadding",
+      "value": " ",
+    },
+  ],
+  [
+    "exit",
+    {
+      "end": {
+        "_bufferIndex": 2,
+        "_index": 0,
+        "column": 3,
+        "line": 1,
+        "offset": 2,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 1,
+        "line": 1,
+        "offset": 0,
+      },
+      "type": "commentLinePrefix",
+    },
+  ],
+  [
+    "enter",
+    {
+      "_container": true,
+      "_region": true,
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 1,
+        "column": 36,
+        "line": 1,
+        "offset": 35,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 3,
+        "line": 1,
+        "offset": 2,
+      },
+      "type": "summary",
+    },
+  ],
+  [
+    "enter",
+    {
+      "end": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 3,
+        "line": 1,
+        "offset": 2,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 3,
+        "line": 1,
+        "offset": 2,
+      },
+      "type": "summaryMarker",
+    },
+  ],
+  [
+    "exit",
+    {
+      "end": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 3,
+        "line": 1,
+        "offset": 2,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 3,
+        "line": 1,
+        "offset": 2,
+      },
+      "type": "summaryMarker",
+    },
+  ],
+  [
+    "enter",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 1,
+        "column": 36,
+        "line": 1,
+        "offset": 35,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 3,
+        "line": 1,
+        "offset": 2,
+      },
+      "type": "content",
+    },
+  ],
+  [
+    "enter",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 1,
+        "column": 36,
+        "line": 1,
+        "offset": 35,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 3,
+        "line": 1,
+        "offset": 2,
+      },
+      "type": "paragraph",
+    },
+  ],
+  [
+    "enter",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 1,
+        "column": 36,
+        "line": 1,
+        "offset": 35,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 3,
+        "line": 1,
+        "offset": 2,
+      },
+      "type": "data",
+      "value": "aggregate labels into one string.",
+    },
+  ],
+  [
+    "exit",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 1,
+        "column": 36,
+        "line": 1,
+        "offset": 35,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 3,
+        "line": 1,
+        "offset": 2,
+      },
+      "type": "data",
+      "value": "aggregate labels into one string.",
+    },
+  ],
+  [
+    "exit",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 1,
+        "column": 36,
+        "line": 1,
+        "offset": 35,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 3,
+        "line": 1,
+        "offset": 2,
+      },
+      "type": "paragraph",
+    },
+  ],
+  [
+    "exit",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 1,
+        "column": 36,
+        "line": 1,
+        "offset": 35,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 3,
+        "line": 1,
+        "offset": 2,
+      },
+      "type": "content",
+    },
+  ],
+  [
+    "exit",
+    {
+      "_container": true,
+      "_region": true,
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 1,
+        "column": 36,
+        "line": 1,
+        "offset": 35,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 3,
+        "line": 1,
+        "offset": 2,
+      },
+      "type": "summary",
+    },
+  ],
+  [
+    "exit",
+    {
+      "_container": true,
+      "_kind": "hash",
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 1,
+        "column": 36,
+        "line": 1,
+        "offset": 35,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 1,
+        "line": 1,
+        "offset": 0,
+      },
+      "type": "comment",
+    },
+  ],
+  [
+    "enter",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 2,
+        "column": 36,
+        "line": 1,
+        "offset": 35,
+      },
+      "start": {
+        "_bufferIndex": -1,
+        "_index": 1,
+        "column": 36,
+        "line": 1,
+        "offset": 35,
+      },
+      "type": "eoc",
+    },
+  ],
+  [
+    "exit",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 2,
+        "column": 36,
+        "line": 1,
+        "offset": 35,
+      },
+      "start": {
+        "_bufferIndex": -1,
+        "_index": 1,
+        "column": 36,
+        "line": 1,
+        "offset": 35,
+      },
+      "type": "eoc",
+    },
+  ],
+]
+`;
+
+exports[`e2e:hashComments > should parse hash comments ("no-eol/02.txt",undefined) 1`] = `
+[
+  [
+    "enter",
+    {
+      "_container": true,
+      "_kind": "hash",
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 1,
+        "column": 21,
+        "line": 1,
+        "offset": 20,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 1,
+        "line": 1,
+        "offset": 0,
+      },
+      "type": "comment",
+    },
+  ],
+  [
+    "enter",
+    {
+      "end": {
+        "_bufferIndex": 1,
+        "_index": 0,
+        "column": 2,
+        "line": 1,
+        "offset": 1,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 1,
+        "line": 1,
+        "offset": 0,
+      },
+      "type": "commentLinePrefix",
+    },
+  ],
+  [
+    "enter",
+    {
+      "end": {
+        "_bufferIndex": 1,
+        "_index": 0,
+        "column": 2,
+        "line": 1,
+        "offset": 1,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 1,
+        "line": 1,
+        "offset": 0,
+      },
+      "type": "commentLineMarker",
+      "value": "#",
+    },
+  ],
+  [
+    "exit",
+    {
+      "end": {
+        "_bufferIndex": 1,
+        "_index": 0,
+        "column": 2,
+        "line": 1,
+        "offset": 1,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 1,
+        "line": 1,
+        "offset": 0,
+      },
+      "type": "commentLineMarker",
+      "value": "#",
+    },
+  ],
+  [
+    "exit",
+    {
+      "end": {
+        "_bufferIndex": 1,
+        "_index": 0,
+        "column": 2,
+        "line": 1,
+        "offset": 1,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 1,
+        "line": 1,
+        "offset": 0,
+      },
+      "type": "commentLinePrefix",
+    },
+  ],
+  [
+    "enter",
+    {
+      "_container": true,
+      "_region": true,
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 1,
+        "column": 21,
+        "line": 1,
+        "offset": 20,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 2,
+        "line": 1,
+        "offset": 1,
+      },
+      "type": "summary",
+    },
+  ],
+  [
+    "enter",
+    {
+      "end": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 2,
+        "line": 1,
+        "offset": 1,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 2,
+        "line": 1,
+        "offset": 1,
+      },
+      "type": "summaryMarker",
+    },
+  ],
+  [
+    "exit",
+    {
+      "end": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 2,
+        "line": 1,
+        "offset": 1,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 2,
+        "line": 1,
+        "offset": 1,
+      },
+      "type": "summaryMarker",
+    },
+  ],
+  [
+    "enter",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 1,
+        "column": 21,
+        "line": 1,
+        "offset": 20,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 2,
+        "line": 1,
+        "offset": 1,
+      },
+      "type": "content",
+    },
+  ],
+  [
+    "enter",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 1,
+        "column": 21,
+        "line": 1,
+        "offset": 20,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 2,
+        "line": 1,
+        "offset": 1,
+      },
+      "type": "paragraph",
+    },
+  ],
+  [
+    "enter",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 1,
+        "column": 21,
+        "line": 1,
+        "offset": 20,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 2,
+        "line": 1,
+        "offset": 1,
+      },
+      "type": "data",
+      "value": "add package labels.",
+    },
+  ],
+  [
+    "exit",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 1,
+        "column": 21,
+        "line": 1,
+        "offset": 20,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 2,
+        "line": 1,
+        "offset": 1,
+      },
+      "type": "data",
+      "value": "add package labels.",
+    },
+  ],
+  [
+    "exit",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 1,
+        "column": 21,
+        "line": 1,
+        "offset": 20,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 2,
+        "line": 1,
+        "offset": 1,
+      },
+      "type": "paragraph",
+    },
+  ],
+  [
+    "exit",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 1,
+        "column": 21,
+        "line": 1,
+        "offset": 20,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 2,
+        "line": 1,
+        "offset": 1,
+      },
+      "type": "content",
+    },
+  ],
+  [
+    "exit",
+    {
+      "_container": true,
+      "_region": true,
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 1,
+        "column": 21,
+        "line": 1,
+        "offset": 20,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 2,
+        "line": 1,
+        "offset": 1,
+      },
+      "type": "summary",
+    },
+  ],
+  [
+    "exit",
+    {
+      "_container": true,
+      "_kind": "hash",
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 1,
+        "column": 21,
+        "line": 1,
+        "offset": 20,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 1,
+        "line": 1,
+        "offset": 0,
+      },
+      "type": "comment",
+    },
+  ],
+  [
+    "enter",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 2,
+        "column": 21,
+        "line": 1,
+        "offset": 20,
+      },
+      "start": {
+        "_bufferIndex": -1,
+        "_index": 1,
+        "column": 21,
+        "line": 1,
+        "offset": 20,
+      },
+      "type": "eoc",
+    },
+  ],
+  [
+    "exit",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 2,
+        "column": 21,
+        "line": 1,
+        "offset": 20,
+      },
+      "start": {
+        "_bufferIndex": -1,
+        "_index": 1,
+        "column": 21,
+        "line": 1,
+        "offset": 20,
+      },
+      "type": "eoc",
+    },
+  ],
+]
+`;
+
+exports[`e2e:hashComments > should parse hash comments ("opener-only/01.txt",undefined) 1`] = `
+[
+  [
+    "enter",
+    {
+      "_container": true,
+      "_kind": "hash",
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 1,
+        "column": 2,
+        "line": 1,
+        "offset": 1,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 1,
+        "line": 1,
+        "offset": 0,
+      },
+      "type": "comment",
+    },
+  ],
+  [
+    "enter",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 1,
+        "column": 2,
+        "line": 1,
+        "offset": 1,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 1,
+        "line": 1,
+        "offset": 0,
+      },
+      "type": "commentLinePrefix",
+    },
+  ],
+  [
+    "enter",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 1,
+        "column": 2,
+        "line": 1,
+        "offset": 1,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 1,
+        "line": 1,
+        "offset": 0,
+      },
+      "type": "commentLineMarker",
+      "value": "#",
+    },
+  ],
+  [
+    "exit",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 1,
+        "column": 2,
+        "line": 1,
+        "offset": 1,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 1,
+        "line": 1,
+        "offset": 0,
+      },
+      "type": "commentLineMarker",
+      "value": "#",
+    },
+  ],
+  [
+    "exit",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 1,
+        "column": 2,
+        "line": 1,
+        "offset": 1,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 1,
+        "line": 1,
+        "offset": 0,
+      },
+      "type": "commentLinePrefix",
+    },
+  ],
+  [
+    "exit",
+    {
+      "_container": true,
+      "_kind": "hash",
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 1,
+        "column": 2,
+        "line": 1,
+        "offset": 1,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 1,
+        "line": 1,
+        "offset": 0,
+      },
+      "type": "comment",
+    },
+  ],
+  [
+    "enter",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 2,
+        "column": 2,
+        "line": 1,
+        "offset": 1,
+      },
+      "start": {
+        "_bufferIndex": -1,
+        "_index": 1,
+        "column": 2,
+        "line": 1,
+        "offset": 1,
+      },
+      "type": "eoc",
+    },
+  ],
+  [
+    "exit",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 2,
+        "column": 2,
+        "line": 1,
+        "offset": 1,
+      },
+      "start": {
+        "_bufferIndex": -1,
+        "_index": 1,
+        "column": 2,
+        "line": 1,
+        "offset": 1,
+      },
+      "type": "eoc",
+    },
+  ],
+]
+`;
+
+exports[`e2e:hashComments > should parse hash comments ("opener-only/02.txt",undefined) 1`] = `
+[
+  [
+    "enter",
+    {
+      "_container": true,
+      "_kind": "hash",
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 2,
+        "column": 1,
+        "line": 2,
+        "offset": 2,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 1,
+        "line": 1,
+        "offset": 0,
+      },
+      "type": "comment",
+    },
+  ],
+  [
+    "enter",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 1,
+        "column": 2,
+        "line": 1,
+        "offset": 1,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 1,
+        "line": 1,
+        "offset": 0,
+      },
+      "type": "commentLinePrefix",
+    },
+  ],
+  [
+    "enter",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 1,
+        "column": 2,
+        "line": 1,
+        "offset": 1,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 1,
+        "line": 1,
+        "offset": 0,
+      },
+      "type": "commentLineMarker",
+      "value": "#",
+    },
+  ],
+  [
+    "exit",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 1,
+        "column": 2,
+        "line": 1,
+        "offset": 1,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 1,
+        "line": 1,
+        "offset": 0,
+      },
+      "type": "commentLineMarker",
+      "value": "#",
+    },
+  ],
+  [
+    "exit",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 1,
+        "column": 2,
+        "line": 1,
+        "offset": 1,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 1,
+        "line": 1,
+        "offset": 0,
+      },
+      "type": "commentLinePrefix",
+    },
+  ],
+  [
+    "enter",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 1,
+        "column": 1,
+        "line": 2,
+        "offset": 2,
+      },
+      "start": {
+        "_bufferIndex": -1,
+        "_index": 0,
+        "column": 2,
+        "line": 1,
+        "offset": 1,
+      },
+      "type": "lineEndingBlank",
+      "value": "
+",
+    },
+  ],
+  [
+    "exit",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 1,
+        "column": 1,
+        "line": 2,
+        "offset": 2,
+      },
+      "start": {
+        "_bufferIndex": -1,
+        "_index": 0,
+        "column": 2,
+        "line": 1,
+        "offset": 1,
+      },
+      "type": "lineEndingBlank",
+      "value": "
+",
+    },
+  ],
+  [
+    "exit",
+    {
+      "_container": true,
+      "_kind": "hash",
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 2,
+        "column": 1,
+        "line": 2,
+        "offset": 2,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 1,
+        "line": 1,
+        "offset": 0,
+      },
+      "type": "comment",
+    },
+  ],
+  [
+    "enter",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 3,
+        "column": 1,
+        "line": 2,
+        "offset": 2,
+      },
+      "start": {
+        "_bufferIndex": -1,
+        "_index": 2,
+        "column": 1,
+        "line": 2,
+        "offset": 2,
+      },
+      "type": "eoc",
+    },
+  ],
+  [
+    "exit",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 3,
+        "column": 1,
+        "line": 2,
+        "offset": 2,
+      },
+      "start": {
+        "_bufferIndex": -1,
+        "_index": 2,
+        "column": 1,
+        "line": 2,
+        "offset": 2,
+      },
+      "type": "eoc",
+    },
+  ],
+]
+`;
+
+exports[`e2e:hashComments > should parse hash comments ("opener-only/03.txt",undefined) 1`] = `
+[
+  [
+    "enter",
+    {
+      "_container": true,
+      "_kind": "hash",
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 1,
+        "column": 3,
+        "line": 1,
+        "offset": 2,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 1,
+        "line": 1,
+        "offset": 0,
+      },
+      "type": "comment",
+    },
+  ],
+  [
+    "enter",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 1,
+        "column": 3,
+        "line": 1,
+        "offset": 2,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 1,
+        "line": 1,
+        "offset": 0,
+      },
+      "type": "commentLinePrefix",
+    },
+  ],
+  [
+    "enter",
+    {
+      "end": {
+        "_bufferIndex": 1,
+        "_index": 0,
+        "column": 2,
+        "line": 1,
+        "offset": 1,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 1,
+        "line": 1,
+        "offset": 0,
+      },
+      "type": "commentLineMarker",
+      "value": "#",
+    },
+  ],
+  [
+    "exit",
+    {
+      "end": {
+        "_bufferIndex": 1,
+        "_index": 0,
+        "column": 2,
+        "line": 1,
+        "offset": 1,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 1,
+        "line": 1,
+        "offset": 0,
+      },
+      "type": "commentLineMarker",
+      "value": "#",
+    },
+  ],
+  [
+    "enter",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 1,
+        "column": 3,
+        "line": 1,
+        "offset": 2,
+      },
+      "start": {
+        "_bufferIndex": 1,
+        "_index": 0,
+        "column": 2,
+        "line": 1,
+        "offset": 1,
+      },
+      "type": "commentPadding",
+      "value": " ",
+    },
+  ],
+  [
+    "exit",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 1,
+        "column": 3,
+        "line": 1,
+        "offset": 2,
+      },
+      "start": {
+        "_bufferIndex": 1,
+        "_index": 0,
+        "column": 2,
+        "line": 1,
+        "offset": 1,
+      },
+      "type": "commentPadding",
+      "value": " ",
+    },
+  ],
+  [
+    "exit",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 1,
+        "column": 3,
+        "line": 1,
+        "offset": 2,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 1,
+        "line": 1,
+        "offset": 0,
+      },
+      "type": "commentLinePrefix",
+    },
+  ],
+  [
+    "exit",
+    {
+      "_container": true,
+      "_kind": "hash",
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 1,
+        "column": 3,
+        "line": 1,
+        "offset": 2,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 1,
+        "line": 1,
+        "offset": 0,
+      },
+      "type": "comment",
+    },
+  ],
+  [
+    "enter",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 2,
+        "column": 3,
+        "line": 1,
+        "offset": 2,
+      },
+      "start": {
+        "_bufferIndex": -1,
+        "_index": 1,
+        "column": 3,
+        "line": 1,
+        "offset": 2,
+      },
+      "type": "eoc",
+    },
+  ],
+  [
+    "exit",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 2,
+        "column": 3,
+        "line": 1,
+        "offset": 2,
+      },
+      "start": {
+        "_bufferIndex": -1,
+        "_index": 1,
+        "column": 3,
+        "line": 1,
+        "offset": 2,
+      },
+      "type": "eoc",
+    },
+  ],
+]
+`;
+
+exports[`e2e:hashComments > should parse hash comments ("opener-only/04.txt",undefined) 1`] = `
+[
+  [
+    "enter",
+    {
+      "_container": true,
+      "_kind": "hash",
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 2,
+        "column": 1,
+        "line": 2,
+        "offset": 3,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 1,
+        "line": 1,
+        "offset": 0,
+      },
+      "type": "comment",
+    },
+  ],
+  [
+    "enter",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 1,
+        "column": 3,
+        "line": 1,
+        "offset": 2,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 1,
+        "line": 1,
+        "offset": 0,
+      },
+      "type": "commentLinePrefix",
+    },
+  ],
+  [
+    "enter",
+    {
+      "end": {
+        "_bufferIndex": 1,
+        "_index": 0,
+        "column": 2,
+        "line": 1,
+        "offset": 1,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 1,
+        "line": 1,
+        "offset": 0,
+      },
+      "type": "commentLineMarker",
+      "value": "#",
+    },
+  ],
+  [
+    "exit",
+    {
+      "end": {
+        "_bufferIndex": 1,
+        "_index": 0,
+        "column": 2,
+        "line": 1,
+        "offset": 1,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 1,
+        "line": 1,
+        "offset": 0,
+      },
+      "type": "commentLineMarker",
+      "value": "#",
+    },
+  ],
+  [
+    "enter",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 1,
+        "column": 3,
+        "line": 1,
+        "offset": 2,
+      },
+      "start": {
+        "_bufferIndex": 1,
+        "_index": 0,
+        "column": 2,
+        "line": 1,
+        "offset": 1,
+      },
+      "type": "commentPadding",
+      "value": " ",
+    },
+  ],
+  [
+    "exit",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 1,
+        "column": 3,
+        "line": 1,
+        "offset": 2,
+      },
+      "start": {
+        "_bufferIndex": 1,
+        "_index": 0,
+        "column": 2,
+        "line": 1,
+        "offset": 1,
+      },
+      "type": "commentPadding",
+      "value": " ",
+    },
+  ],
+  [
+    "exit",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 1,
+        "column": 3,
+        "line": 1,
+        "offset": 2,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 1,
+        "line": 1,
+        "offset": 0,
+      },
+      "type": "commentLinePrefix",
+    },
+  ],
+  [
+    "enter",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 1,
+        "column": 1,
+        "line": 2,
+        "offset": 3,
+      },
+      "start": {
+        "_bufferIndex": -1,
+        "_index": 0,
+        "column": 3,
+        "line": 1,
+        "offset": 2,
+      },
+      "type": "lineEndingBlank",
+      "value": "
+",
+    },
+  ],
+  [
+    "exit",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 1,
+        "column": 1,
+        "line": 2,
+        "offset": 3,
+      },
+      "start": {
+        "_bufferIndex": -1,
+        "_index": 0,
+        "column": 3,
+        "line": 1,
+        "offset": 2,
+      },
+      "type": "lineEndingBlank",
+      "value": "
+",
+    },
+  ],
+  [
+    "exit",
+    {
+      "_container": true,
+      "_kind": "hash",
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 2,
+        "column": 1,
+        "line": 2,
+        "offset": 3,
+      },
+      "start": {
+        "_bufferIndex": 0,
+        "_index": 0,
+        "column": 1,
+        "line": 1,
+        "offset": 0,
+      },
+      "type": "comment",
+    },
+  ],
+  [
+    "enter",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 3,
+        "column": 1,
+        "line": 2,
+        "offset": 3,
+      },
+      "start": {
+        "_bufferIndex": -1,
+        "_index": 2,
+        "column": 1,
+        "line": 2,
+        "offset": 3,
+      },
+      "type": "eoc",
+    },
+  ],
+  [
+    "exit",
+    {
+      "end": {
+        "_bufferIndex": -1,
+        "_index": 3,
+        "column": 1,
+        "line": 2,
+        "offset": 3,
+      },
+      "start": {
+        "_bufferIndex": -1,
+        "_index": 2,
+        "column": 1,
+        "line": 2,
+        "offset": 3,
+      },
+      "type": "eoc",
+    },
+  ],
+]
+`;
