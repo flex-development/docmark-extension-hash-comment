@@ -1689,10 +1689,10 @@ __metadata:
     "@commitlint/types": "npm:21.2.0"
     "@edge-runtime/vm": "npm:5.0.0"
     "@flex-development/commitlint-config": "npm:1.0.1"
-    "@flex-development/docmark": "npm:1.0.0-alpha.1"
-    "@flex-development/docmark-factory-space": "npm:1.0.0-alpha.1"
-    "@flex-development/docmark-util-symbol": "npm:1.1.0-alpha.1"
-    "@flex-development/docmark-util-types": "npm:1.1.0-alpha.1"
+    "@flex-development/docmark": "npm:1.0.0-alpha.3"
+    "@flex-development/docmark-factory-space": "npm:1.0.0-alpha.3"
+    "@flex-development/docmark-util-symbol": "npm:1.0.0-alpha.3"
+    "@flex-development/docmark-util-types": "npm:1.0.0-alpha.3"
     "@flex-development/eslint-config": "npm:1.1.1"
     "@flex-development/export-regex": "npm:2.0.0"
     "@flex-development/grease": "npm:3.0.0-alpha.9"
@@ -1743,81 +1743,81 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@flex-development/docmark-factory-space@npm:1.0.0-alpha.1":
-  version: 1.0.0-alpha.1
-  resolution: "@flex-development/docmark-factory-space@npm:1.0.0-alpha.1"
+"@flex-development/docmark-factory-space@npm:1.0.0-alpha.3":
+  version: 1.0.0-alpha.3
+  resolution: "@flex-development/docmark-factory-space@npm:1.0.0-alpha.3"
   dependencies:
-    "@flex-development/docmark-util-types": "npm:1.0.0-alpha.1"
+    "@flex-development/docmark-util-types": "npm:1.0.0-alpha.3"
     "@flex-development/mark-util-character": "npm:1.1.0"
     micromark-util-types: "npm:2.0.2"
-  checksum: 10/437898707a08e9cbc5c98d4bf798c311f6b65a1f3252b3d366de258a7c537da4e833deb1c8f876eeb189f3dd9ce730cc0b787afac7625f1002aa32c8c5a28ede
+  checksum: 10/311e6042e1d500e8930b135e77ffeef30d153bb18be7cf632880c9fa47cbdd298d1fa2631133527246eb8d6988ed3acf4fe286591dc96632711cd2f42a3b70d6
   languageName: node
   linkType: hard
 
-"@flex-development/docmark-grammar@npm:1.0.0-alpha.1":
-  version: 1.0.0-alpha.1
-  resolution: "@flex-development/docmark-grammar@npm:1.0.0-alpha.1"
+"@flex-development/docmark-grammar@npm:1.0.0-alpha.3":
+  version: 1.0.0-alpha.3
+  resolution: "@flex-development/docmark-grammar@npm:1.0.0-alpha.3"
   dependencies:
-    "@flex-development/docmark-factory-space": "npm:1.0.0-alpha.1"
-    "@flex-development/docmark-util-symbol": "npm:1.0.0-alpha.1"
-    "@flex-development/docmark-util-types": "npm:1.0.0-alpha.1"
+    "@flex-development/docmark-factory-space": "npm:1.0.0-alpha.3"
+    "@flex-development/docmark-util-symbol": "npm:1.0.0-alpha.3"
+    "@flex-development/docmark-util-types": "npm:1.0.0-alpha.3"
     "@flex-development/mark-util-character": "npm:1.1.0"
     devlop: "npm:1.1.0"
-  checksum: 10/29ee2b6226f8baba59f54cc61af49474a75f71b5d4298730ac5dd7fae30cf165bccd5d6dceb5d0cdecafaa09e5d3ccf3c530afcde8b8ad8ce49008837fedf2ac
+  checksum: 10/a57ee110f5a4271840e42b4735817d39e7e3d83b6e4b7bab784f0ec0cf0e60b40702e496669f168a9ca14ec1b2b6f791e47949cbd65f983fd1f104d5ef4edb24
   languageName: node
   linkType: hard
 
-"@flex-development/docmark-util-combine-extensions@npm:1.0.0-alpha.1":
-  version: 1.0.0-alpha.1
-  resolution: "@flex-development/docmark-util-combine-extensions@npm:1.0.0-alpha.1"
+"@flex-development/docmark-util-combine-extensions@npm:1.0.0-alpha.3":
+  version: 1.0.0-alpha.3
+  resolution: "@flex-development/docmark-util-combine-extensions@npm:1.0.0-alpha.3"
   dependencies:
-    "@flex-development/docmark-util-types": "npm:1.0.0-alpha.1"
+    "@flex-development/docmark-util-types": "npm:1.0.0-alpha.3"
     "@flex-development/mark-util-chunked": "npm:1.0.0"
     devlop: "npm:1.1.0"
-  checksum: 10/66f6efdd4136a8a06fe910b82105d292e7531c6ad7ce03944245a1df4eacfc9872846ee48e5f64b16902dfdc2fbaa09c53238b58c3b8247abe2bbe116d0a5c3a
+  checksum: 10/f77236501b5d0d27742176776c954e27475cabd4d6da56836462a0ba049a798355828861d84f6f78cafc825a34b215688d9565785a5c7d0a8016611657f5fb9b
   languageName: node
   linkType: hard
 
-"@flex-development/docmark-util-subtokenize@npm:1.0.0-alpha.1":
-  version: 1.0.0-alpha.1
-  resolution: "@flex-development/docmark-util-subtokenize@npm:1.0.0-alpha.1"
+"@flex-development/docmark-util-subtokenize@npm:1.0.0-alpha.3":
+  version: 1.0.0-alpha.3
+  resolution: "@flex-development/docmark-util-subtokenize@npm:1.0.0-alpha.3"
   dependencies:
-    "@flex-development/docmark-util-symbol": "npm:1.0.0-alpha.1"
-    "@flex-development/docmark-util-types": "npm:1.0.0-alpha.1"
+    "@flex-development/docmark-util-symbol": "npm:1.0.0-alpha.3"
+    "@flex-development/docmark-util-types": "npm:1.0.0-alpha.3"
     "@flex-development/mark-util-chunked": "npm:1.0.0"
     devlop: "npm:1.1.0"
-  checksum: 10/a70fd9dc09233b80005e86d19ce2b7ef18089b4786d6869818e58f7b042f1cb3ba14ffa4ee25eb346048ea2871a684202d47d97704c4210f0821c0a9403556a3
+  checksum: 10/8178a1bab8724b554ee599a8121893fff27192c0abfed4c1c1bf06ac1811dfe4dab96ed7c8dc71c3987748f4be0de0f27132087fa515e5c9a668eda7a0379a73
   languageName: node
   linkType: hard
 
-"@flex-development/docmark-util-symbol@npm:1.1.0-alpha.1":
-  version: 1.1.0-alpha.1
-  resolution: "@flex-development/docmark-util-symbol@npm:1.1.0-alpha.1"
-  checksum: 10/822cc18301ae8dc52278a027e686f44ecf6db844de37d4a68ec9db8dee749067a4f7e86ed6798ef86f844e1406db69e5fc24241bc4017a2096fba5f34bab9bdc
+"@flex-development/docmark-util-symbol@npm:1.0.0-alpha.3":
+  version: 1.0.0-alpha.3
+  resolution: "@flex-development/docmark-util-symbol@npm:1.0.0-alpha.3"
+  checksum: 10/a20e755f2842d4608b70db6d3919280e2a7ece00bce8e0419fc87df7abd9977e2235b0eed129143fa64314f5fbf3b2ee0af1042b1c91c71f976cf8840f092624
   languageName: node
   linkType: hard
 
-"@flex-development/docmark-util-types@npm:1.1.0-alpha.1":
-  version: 1.1.0-alpha.1
-  resolution: "@flex-development/docmark-util-types@npm:1.1.0-alpha.1"
+"@flex-development/docmark-util-types@npm:1.0.0-alpha.3":
+  version: 1.0.0-alpha.3
+  resolution: "@flex-development/docmark-util-types@npm:1.0.0-alpha.3"
   dependencies:
     "@flex-development/mark": "npm:1.0.0-alpha.4"
     "@types/debug": "npm:4.1.13"
     micromark-util-types: "npm:2.0.2"
-  checksum: 10/832e4b78dfc268adaa1c7f01dcf28a63749919c60df4a83fbe334107df780a4072430f054f247e0632001b97d8f895ea5bc5104abb255cda19a4cba42ae88c98
+  checksum: 10/139391b5829838a19964ff2e3d89a2755fbe9b3cf7a6d664ba253701ad83c5f71e466517463491744f000cb9ffc1e18e1da3e31b87f68e47c5a5fd9f2338f8ac
   languageName: node
   linkType: hard
 
-"@flex-development/docmark@npm:1.0.0-alpha.1":
-  version: 1.0.0-alpha.1
-  resolution: "@flex-development/docmark@npm:1.0.0-alpha.1"
+"@flex-development/docmark@npm:1.0.0-alpha.3":
+  version: 1.0.0-alpha.3
+  resolution: "@flex-development/docmark@npm:1.0.0-alpha.3"
   dependencies:
-    "@flex-development/docmark-factory-space": "npm:1.0.0-alpha.1"
-    "@flex-development/docmark-grammar": "npm:1.0.0-alpha.1"
-    "@flex-development/docmark-util-combine-extensions": "npm:1.0.0-alpha.1"
-    "@flex-development/docmark-util-subtokenize": "npm:1.0.0-alpha.1"
-    "@flex-development/docmark-util-symbol": "npm:1.0.0-alpha.1"
-    "@flex-development/docmark-util-types": "npm:1.0.0-alpha.1"
+    "@flex-development/docmark-factory-space": "npm:1.0.0-alpha.3"
+    "@flex-development/docmark-grammar": "npm:1.0.0-alpha.3"
+    "@flex-development/docmark-util-combine-extensions": "npm:1.0.0-alpha.3"
+    "@flex-development/docmark-util-subtokenize": "npm:1.0.0-alpha.3"
+    "@flex-development/docmark-util-symbol": "npm:1.0.0-alpha.3"
+    "@flex-development/docmark-util-types": "npm:1.0.0-alpha.3"
     "@flex-development/mark": "npm:1.0.0-alpha.4"
     "@flex-development/mark-parser": "npm:1.0.0-alpha.19"
     "@flex-development/mark-util-character": "npm:1.1.0"
@@ -1826,7 +1826,7 @@ __metadata:
     micromark-core-commonmark: "npm:2.0.3"
     micromark-util-subtokenize: "npm:2.1.0"
     micromark-util-types: "npm:2.0.2"
-  checksum: 10/5db2028ca35ebd3f55c3cd05b5cd4146d5a4998cb4284d1cfa37dc31db7a5a4dc43194101883617441aaa4c216315323679c39356fdfe57fdb4e9896bdc6d520
+  checksum: 10/b070b5f8d334b09de946f4c1e35ce01825bb47856d979bd0a9ad0d67cde68d62fffffef28b17ff667e8b9f1bb102d3d0aa56c2dad9240fc2edc84401fe87d468
   languageName: node
   linkType: hard
 
