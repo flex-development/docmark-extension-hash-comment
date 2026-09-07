@@ -21,7 +21,6 @@
 # - https://github.com/flex-development/jq-action
 # - https://github.com/flex-development/manver-action
 # - https://github.com/hmarr/debug-action
-# - https://github.com/shaneapowell/github-tweak-the-json
 # - https://yarnpkg.com/cli/pack
 
 ---
@@ -110,13 +109,8 @@ jobs:
         name: Add local binaries to $PATH
         run: echo "${{ github.workspace }}/node_modules/.bin" >> ${{ github.path }}
       - id: build
-        name: Add build metadata to package.json
-        uses: shaneapowell/github-tweak-the-json@v1
-        with:
-          action: write
-          filename: ./package.json
-          field: build
-          value: ${{ github.event.pull_request.merge_commit_sha }}
+        name: Add build metadata to manifest
+        run: yq '.build="${{ github.event.pull_request.merge_commit_sha }}"' -i package.json
       - id: pack
         name: Pack project
         run: |
