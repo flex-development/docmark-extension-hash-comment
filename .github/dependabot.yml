@@ -26,6 +26,9 @@ updates:
       commitlint:
         patterns:
           - '@commitlint/*'
+      docmark:
+        patterns:
+          - '@flex-development/docmark*'
       flex-development:
         patterns:
           - '@flex-development/*'
