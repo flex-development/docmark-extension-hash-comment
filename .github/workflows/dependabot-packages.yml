@@ -120,7 +120,7 @@ jobs:
         run: yarn
       - id: local-binaries
         name: Add local binaries to $PATH
-        run: echo "$GITHUB_WORKSPACE/node_modules/.bin" >> $GITHUB_PATH
+        run: echo "${{ github.workspace }}/node_modules/.bin" >> ${{ github.path }}
       - id: dprint
         name: Update dprint config
         run: dprint config update --yes

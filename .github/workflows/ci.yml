@@ -493,7 +493,7 @@ jobs:
           path: ${{ env.CACHE_PATH_BUILD }}
       - id: local-binaries
         name: Add local binaries to $PATH
-        run: echo "$GITHUB_WORKSPACE/node_modules/.bin" >> $GITHUB_PATH
+        run: echo "${{ github.workspace }}/node_modules/.bin" >> ${{ github.path }}
       - id: directory
         name: Get package directory
         run: echo "result=." >>$GITHUB_OUTPUT
