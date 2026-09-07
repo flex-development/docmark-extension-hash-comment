@@ -1691,8 +1691,8 @@ __metadata:
     "@flex-development/commitlint-config": "npm:1.0.1"
     "@flex-development/docmark": "npm:1.0.0-alpha.3"
     "@flex-development/docmark-factory-space": "npm:1.0.0-alpha.3"
-    "@flex-development/docmark-util-symbol": "npm:1.0.0-alpha.3"
-    "@flex-development/docmark-util-types": "npm:1.0.0-alpha.3"
+    "@flex-development/docmark-util-symbol": "npm:1.0.0-dev.1"
+    "@flex-development/docmark-util-types": "npm:1.0.0-dev.1"
     "@flex-development/eslint-config": "npm:1.1.1"
     "@flex-development/export-regex": "npm:2.0.0"
     "@flex-development/grease": "npm:3.0.0-alpha.9"
@@ -1797,6 +1797,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@flex-development/docmark-util-symbol@npm:1.0.0-dev.1":
+  version: 1.0.0-dev.1
+  resolution: "@flex-development/docmark-util-symbol@npm:1.0.0-dev.1"
+  checksum: 10/0008d0502dd5ad374c738f0ff680d5fcd0abb7cceae560c8517607b1d9b219fc0670eb246fc267290f73c7b34298c3a16aaa88536339deaa6c16e8d17244f719
+  languageName: node
+  linkType: hard
+
 "@flex-development/docmark-util-types@npm:1.0.0-alpha.3":
   version: 1.0.0-alpha.3
   resolution: "@flex-development/docmark-util-types@npm:1.0.0-alpha.3"
@@ -1805,6 +1812,17 @@ __metadata:
     "@types/debug": "npm:4.1.13"
     micromark-util-types: "npm:2.0.2"
   checksum: 10/139391b5829838a19964ff2e3d89a2755fbe9b3cf7a6d664ba253701ad83c5f71e466517463491744f000cb9ffc1e18e1da3e31b87f68e47c5a5fd9f2338f8ac
+  languageName: node
+  linkType: hard
+
+"@flex-development/docmark-util-types@npm:1.0.0-dev.1":
+  version: 1.0.0-dev.1
+  resolution: "@flex-development/docmark-util-types@npm:1.0.0-dev.1"
+  dependencies:
+    "@flex-development/mark": "npm:1.0.0-alpha.4"
+    "@types/debug": "npm:4.1.13"
+    micromark-util-types: "npm:2.0.2"
+  checksum: 10/46c38eedfb16dd6f37f367bec1b5a00034cff8da3711692847ca3a345ce612dc6c98882d4241e5be00c7202c3aa32a9bec4a7377ec78efa5c49081e418f7d72b
   languageName: node
   linkType: hard
 

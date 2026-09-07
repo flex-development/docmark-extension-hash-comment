@@ -102,8 +102,8 @@
   },
   "dependencies": {
     "@flex-development/docmark-factory-space": "1.0.0-alpha.3",
-    "@flex-development/docmark-util-symbol": "1.0.0-alpha.3",
-    "@flex-development/docmark-util-types": "1.0.0-alpha.3",
+    "@flex-development/docmark-util-symbol": "1.0.0-dev.1",
+    "@flex-development/docmark-util-types": "1.0.0-dev.1",
     "devlop": "1.1.0"
   },
   "devDependencies": {
