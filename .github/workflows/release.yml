@@ -105,7 +105,7 @@ jobs:
           node-version-file: .nvmrc
       - id: dependencies
         name: Install dependencies
-        run: yarn
+        run: yarn --immutable
       - id: local-binaries
         name: Add local binaries to $PATH
         run: echo "${{ github.workspace }}/node_modules/.bin" >> ${{ github.path }}
