@@ -1,22 +1,19 @@
 {
-  "name": "@flex-development/docmark-extension-hash-comment",
-  "description": "docmark extension to parse hash comments",
-  "version": "1.0.0-alpha.2",
+  "name": "@flex-development/docmark-extension-yaml",
+  "description": "docmark extension to parse yaml comments",
+  "version": "0.0.0",
   "keywords": [
-    "bash",
     "comment",
     "docmark",
     "documentation",
-    "hash-comment",
-    "sh",
     "yaml",
-    "yml",
-    "zsh"
+    "yaml",
+    "yml"
   ],
   "license": "BSD-3-Clause",
-  "homepage": "https://github.com/flex-development/docmark-extension-hash-comment",
-  "repository": "https://github.com/flex-development/docmark-extension-hash-comment.git",
-  "bugs": "https://github.com/flex-development/docmark-extension-hash-comment/issues",
+  "homepage": "https://github.com/flex-development/docmark-extension-yaml",
+  "repository": "https://github.com/flex-development/docmark-extension-yaml.git",
+  "bugs": "https://github.com/flex-development/docmark-extension-yaml/issues",
   "funding": [
     {
       "type": "GitHub Sponsors",
@@ -29,8 +26,8 @@
   },
   "publishConfig": {
     "access": "public",
-    "diff-dst-prefix": "docmark-extension-hash-comment",
-    "diff-src-prefix": "docmark-extension-hash-comment",
+    "diff-dst-prefix": "docmark-extension-yaml",
+    "diff-src-prefix": "docmark-extension-yaml",
     "directory": "./",
     "executableFiles": [],
     "node-options": null,
@@ -48,7 +45,7 @@
   ],
   "exports": {
     ".": {
-      "docmark-extension-hash-comment": "./src/index.mts",
+      "docmark-extension-yaml": "./src/index.mts",
       "default": "./dist/index.mjs"
     },
     "./package.json": "./package.json"

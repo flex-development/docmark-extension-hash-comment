@@ -3,7 +3,7 @@
     "allowImportingTsExtensions": true,
     "allowJs": true,
     "alwaysStrict": true,
-    "customConditions": ["docmark-extension-hash-comment", "development"],
+    "customConditions": ["docmark-extension-yaml", "development"],
     "declaration": true,
     "declarationMap": true,
     "lib": ["es2024", "dom"],

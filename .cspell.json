@@ -2,10 +2,10 @@
   "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
   "allowCompoundWords": true,
   "caseSensitive": false,
-  "dictionaries": ["@flex-development/docmark-extension-hash-comment"],
+  "dictionaries": ["@flex-development/docmark-extension-yaml"],
   "dictionaryDefinitions": [
     {
-      "name": "@flex-development/docmark-extension-hash-comment",
+      "name": "@flex-development/docmark-extension-yaml",
       "path": "./.dictionary.txt"
     }
   ],

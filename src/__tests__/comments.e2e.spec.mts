@@ -1,11 +1,11 @@
 /**
- * @file E2E Tests - hashComments
- * @module docmark-extension-hash-comment/tests/e2e/hashComments
+ * @file E2E Tests - comments
+ * @module docmark-extension-yaml/tests/e2e/comments
  */
 
 import snapshot from '#tests/utils/snapshot-events'
 import { parse, postprocess, preprocess } from '@flex-development/docmark'
-import testSubject from '@flex-development/docmark-extension-hash-comment'
+import testSubject from '@flex-development/docmark-extension-yaml'
 import { tt } from '@flex-development/docmark-util-symbol'
 import type {
   Chunk,
@@ -16,7 +16,7 @@ import pathe from '@flex-development/pathe'
 import { readSync as read } from 'to-vfile'
 import { beforeAll, describe, expect, it } from 'vitest'
 
-describe('e2e:hashComments', () => {
+describe('e2e:comments', () => {
   let directory: string
   let options: ParseOptions
 
@@ -27,7 +27,7 @@ describe('e2e:hashComments', () => {
 
   it.each<[path: string]>([
     ['empty/01.txt']
-  ])('should handle no hash comments (%j)', path => {
+  ])('should handle no comments (%j)', path => {
     // Arrange
     const file: FileLike = read(pathe.join(directory, path))
     const slice: Chunk[] = preprocess()(file, undefined, true)
@@ -51,7 +51,7 @@ describe('e2e:hashComments', () => {
     ['no-eol/02.txt'],
     ['multiline/01.txt'],
     ['multiline/02.txt']
-  ])('should parse hash comments (%j,%j)', path => {
+  ])('should parse yaml comments (%j,%j)', path => {
     // Arrange
     const file: FileLike = read(pathe.join(directory, path))
     const slice: Chunk[] = preprocess()(file, undefined, true)
