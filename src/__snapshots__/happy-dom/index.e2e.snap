@@ -1,9 +1,8 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`e2e:docmark-extension-hash-comment > should expose public api 1`] = `
+exports[`e2e:docmark-extension-yaml > should expose public api 1`] = `
 [
-  "hashComment",
   "default",
-  "hashComments",
+  "yamlComments",
 ]
 `;

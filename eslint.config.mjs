@@ -15,7 +15,7 @@ import fldv from '@flex-development/eslint-config'
 const config = [
   ...fldv.configs.node,
   {
-    files: ['src/hash-comment.mts'],
+    files: ['src/comment.mts'],
     rules: {
       'unicorn/no-this-assignment': 0
     }

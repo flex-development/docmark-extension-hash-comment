@@ -182,25 +182,23 @@ repository:
   automated_security_fixes: true
   default_branch: main
   delete_branch_on_merge: true
-  description: docmark extension to parse hash comments
+  description: docmark extension to support yaml
   has_issues: true
   has_projects: true
   has_wiki: false
-  homepage: https://github.com/flex-development/docmark-extension-hash-comment
+  homepage: https://github.com/flex-development/docmark-extension-yaml
   is_template: false
   private: false
   squash_merge_commit_message: BLANK
   squash_merge_commit_title: PR_TITLE
   topics:
-    - bash
     - comment
     - docmark
     - documentation
     - hash-comment
-    - sh
+    - pound-comment
     - yaml
     - yml
-    - zsh
   visibility: public
   vulnerability_alerts: true
   web_commit_signoff_required: true

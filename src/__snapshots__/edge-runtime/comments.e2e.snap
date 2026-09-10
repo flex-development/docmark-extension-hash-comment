@@ -1,6 +1,6 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`e2e:hashComments > should parse hash comments ("multiline/01.txt",undefined) 1`] = `
+exports[`e2e:comments > should parse yaml comments ("multiline/01.txt",undefined) 1`] = `
 [
   [
     "enter",
@@ -675,7 +675,7 @@ exports[`e2e:hashComments > should parse hash comments ("multiline/01.txt",undef
 ]
 `;
 
-exports[`e2e:hashComments > should parse hash comments ("multiline/02.txt",undefined) 1`] = `
+exports[`e2e:comments > should parse yaml comments ("multiline/02.txt",undefined) 1`] = `
 [
   [
     "enter",
@@ -1346,7 +1346,7 @@ exports[`e2e:hashComments > should parse hash comments ("multiline/02.txt",undef
 ]
 `;
 
-exports[`e2e:hashComments > should parse hash comments ("no-eol/01.txt",undefined) 1`] = `
+exports[`e2e:comments > should parse yaml comments ("no-eol/01.txt",undefined) 1`] = `
 [
   [
     "enter",
@@ -1765,7 +1765,7 @@ exports[`e2e:hashComments > should parse hash comments ("no-eol/01.txt",undefine
 ]
 `;
 
-exports[`e2e:hashComments > should parse hash comments ("no-eol/02.txt",undefined) 1`] = `
+exports[`e2e:comments > should parse yaml comments ("no-eol/02.txt",undefined) 1`] = `
 [
   [
     "enter",
@@ -2142,7 +2142,7 @@ exports[`e2e:hashComments > should parse hash comments ("no-eol/02.txt",undefine
 ]
 `;
 
-exports[`e2e:hashComments > should parse hash comments ("opener-only/01.txt",undefined) 1`] = `
+exports[`e2e:comments > should parse yaml comments ("opener-only/01.txt",undefined) 1`] = `
 [
   [
     "enter",
@@ -2313,7 +2313,7 @@ exports[`e2e:hashComments > should parse hash comments ("opener-only/01.txt",und
 ]
 `;
 
-exports[`e2e:hashComments > should parse hash comments ("opener-only/02.txt",undefined) 1`] = `
+exports[`e2e:comments > should parse yaml comments ("opener-only/02.txt",undefined) 1`] = `
 [
   [
     "enter",
@@ -2528,7 +2528,7 @@ exports[`e2e:hashComments > should parse hash comments ("opener-only/02.txt",und
 ]
 `;
 
-exports[`e2e:hashComments > should parse hash comments ("opener-only/03.txt",undefined) 1`] = `
+exports[`e2e:comments > should parse yaml comments ("opener-only/03.txt",undefined) 1`] = `
 [
   [
     "enter",
@@ -2741,7 +2741,7 @@ exports[`e2e:hashComments > should parse hash comments ("opener-only/03.txt",und
 ]
 `;
 
-exports[`e2e:hashComments > should parse hash comments ("opener-only/04.txt",undefined) 1`] = `
+exports[`e2e:comments > should parse yaml comments ("opener-only/04.txt",undefined) 1`] = `
 [
   [
     "enter",

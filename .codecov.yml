@@ -85,4 +85,4 @@ ignore:
 
 profiling:
   critical_files_paths:
-    - src/hash-comment.mts
+    - src/comment.mts

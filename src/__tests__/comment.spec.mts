@@ -1,12 +1,12 @@
 /**
- * @file Unit Tests - hashComment
- * @module docmark-extension-hash-comment/tests/unit/hashComment
+ * @file Unit Tests - comment
+ * @module docmark-extension-yaml/tests/unit/comment
  */
 
 import { describe, expect, it } from 'vitest'
-import testSubject from '../hash-comment.mts'
+import testSubject from '../comment.mts'
 
-describe('unit:hashComment', () => {
+describe('unit:comment', () => {
   it('should be named comment construct', () => {
     expect(testSubject).to.have.property('continuation')
     expect(testSubject).to.have.property('name').be.a('string')

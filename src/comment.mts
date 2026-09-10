@@ -1,6 +1,6 @@
 /**
- * @file hashComment
- * @module docmark-extension-hash-comment/hashComment
+ * @file comment
+ * @module docmark-extension-yaml/comment
  */
 
 import { factorySpace } from '@flex-development/docmark-factory-space'
@@ -21,20 +21,20 @@ import type {
 import { ok as assert } from 'devlop'
 
 /**
- * The hash comment construct.
+ * The YAML comment construct.
  *
  * This construct is expected to run at the `source` content level.
  *
- * @const {ContinuableConstruct & NamedConstruct} hashComment
+ * @const {ContinuableConstruct & NamedConstruct} comment
  */
-const hashComment: ContinuableConstruct & NamedConstruct = {
-  continuation: { tokenize: tokenizeHashCommentContinuation },
-  exit: exitHashComment,
-  name: `${tt.comment}:${kind.hash}`,
-  tokenize: tokenizeHashComment
+const comment: ContinuableConstruct & NamedConstruct = {
+  continuation: { tokenize: tokenizeYamlCommentContinuation },
+  exit: exitYamlComment,
+  name: `${tt.comment}:yaml`,
+  tokenize: tokenizeYamlComment
 }
 
-export default hashComment
+export default comment
 
 /**
  * Exit the comment container.
@@ -45,12 +45,12 @@ export default hashComment
  *  The context object used to transition the state machine
  * @return {undefined}
  */
-function exitHashComment(this: TokenizeContext, effects: Effects): undefined {
+function exitYamlComment(this: TokenizeContext, effects: Effects): undefined {
   return void effects.exit(tt.comment)
 }
 
 /**
- * Tokenize the first line of a hash comment or a continued line.
+ * Tokenize the first line of a comment or a continued line.
  *
  * The first line opens the comment container before capturing
  * the comment line prefix.\
@@ -67,7 +67,7 @@ function exitHashComment(this: TokenizeContext, effects: Effects): undefined {
  * @return {State}
  *  The initial state
  */
-function tokenizeHashComment(
+function tokenizeYamlComment(
   this: TokenizeContext,
   effects: Effects,
   ok: State,
@@ -83,7 +83,7 @@ function tokenizeHashComment(
   return startComment
 
   /**
-   * Attempt to begin or continue a hash comment.
+   * Attempt to begin or continue a comment.
    *
    * The comment container is opened when it is not already open.
    * Continued lines reuse this state through the continuation construct.
@@ -112,7 +112,7 @@ function tokenizeHashComment(
    *  The next state
    */
   function startComment(this: void, code: Code): State | undefined {
-    // cannot start or continue a hash comment.
+    // cannot start or continue a comment.
     if (code !== codes.numberSign) return nok(code)
     assert(self.containerState, 'expected `containerState` inside comment')
 
@@ -133,7 +133,7 @@ function tokenizeHashComment(
     // capture optional padding.
     return factorySpace(
       effects,
-      afterMarker,
+      endPrefix,
       tt.commentPadding,
       constants.commentPaddingSizeMin
     )
@@ -167,18 +167,18 @@ function tokenizeHashComment(
    * @return {State | undefined}
    *  The next state
    */
-  function afterMarker(this: void, code: Code): State | undefined {
+  function endPrefix(this: void, code: Code): State | undefined {
     effects.exit(tt.commentLinePrefix)
     return ok(code)
   }
 }
 
 /**
- * Continue tokenizing a hash comment.
+ * Continue tokenizing a comment.
  *
  * A continuation line may contain optional padding before
  * a comment line prefix.\
- * The existing comment container remains open while the {@linkcode hashComment}
+ * The existing comment container remains open while the {@linkcode yamlComment}
  * construct is attempted again.
  *
  * @this {TokenizeContext}
@@ -192,7 +192,7 @@ function tokenizeHashComment(
  * @return {State}
  *  The initial state
  */
-function tokenizeHashCommentContinuation(
+function tokenizeYamlCommentContinuation(
   this: TokenizeContext,
   effects: Effects,
   ok: State,
@@ -226,7 +226,7 @@ function tokenizeHashCommentContinuation(
   /**
    * Attempt to tokenize a comment line prefix.
    *
-   * The {@linkcode hashComment} construct is attempted from the current point
+   * The {@linkcode yamlComment} construct is attempted from the current point
    * after optional padding.
    *
    * > 👉 **Note**: `␊` represents a line ending.
@@ -246,6 +246,6 @@ function tokenizeHashCommentContinuation(
    *  The next state
    */
   function afterLineStart(this: void, code: Code): State | undefined {
-    return effects.attempt(hashComment, ok, nok)(code)
+    return effects.attempt(comment, ok, nok)(code)
   }
 }
