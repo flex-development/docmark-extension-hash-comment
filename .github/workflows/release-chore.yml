@@ -219,7 +219,7 @@ jobs:
           <!-- A clear and concise description of your changes. -->
 
           - bumped manifest version to `${{ needs.preflight.outputs.version }}`
-          - set `changesetBaseRefs` in `.yarnrc.yml` to `${{ needs.preflight.outputs.version }}`
+          - bumped `changesetBaseRefs` to `${{ needs.preflight.outputs.version }}`
           - added `CHANGELOG` entry for `${{ needs.preflight.outputs.version }}`
 
           ## Linked issues
