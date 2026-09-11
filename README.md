@@ -24,6 +24,7 @@
 - [Use](#use)
 - [API](#api)
   - [`yamlComments`][api-yaml-comments]
+  - [`yamlComment`][api-yaml-comment]
 - [Types](#types)
 - [Project](#project)
   - [Version](#version)
@@ -75,13 +76,17 @@ In browsers with [`esm.sh`][esmsh]:
 
 ## API
 
-This package exports the identifier [`yamlComments`][api-yaml-comments].
+This package exports the identifiers [`yamlComment`][api-yaml-comment] and [`yamlComments`][api-yaml-comments].
 
 The default export is `yamlComments`.
 
 ### [`yamlComments`](./src/comments.mts)
 
 **TODO**: `yamlComments`
+
+### [`yamlComment`](./src/comment.mts)
+
+**TODO**: `yamlComment`
 
 ## Types
 
@@ -104,6 +109,8 @@ By interacting with this repository, organization, or community you agree to abi
 
 Small primitives power larger systems.
 Support long-term stability by sponsoring Flex Development.
+
+[api-yaml-comment]: #yamlcomment
 
 [api-yaml-comments]: #yamlcomments
 

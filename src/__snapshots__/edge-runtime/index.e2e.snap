@@ -2,6 +2,7 @@
 
 exports[`e2e:docmark-extension-yaml > should expose public api 1`] = `
 [
+  "yamlComment",
   "default",
   "yamlComments",
 ]
