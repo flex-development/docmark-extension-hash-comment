@@ -1,6 +1,6 @@
 {
   "name": "@flex-development/docmark-extension-yaml",
-  "description": "docmark extension to support yaml",
+  "description": "docmark extension to support yaml comment syntax",
   "version": "1.0.0-alpha.3",
   "keywords": [
     "comment",
