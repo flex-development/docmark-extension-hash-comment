@@ -5,8 +5,7 @@ exports[`e2e:comments > should parse yaml comments ("multiline/01.txt",undefined
   [
     "enter",
     {
-      "_container": true,
-      "_kind": "hash",
+      "_kind": "line",
       "end": {
         "_bufferIndex": -1,
         "_index": 7,
@@ -14,6 +13,7 @@ exports[`e2e:comments > should parse yaml comments ("multiline/01.txt",undefined
         "line": 4,
         "offset": 11,
       },
+      "lang": "yaml",
       "start": {
         "_bufferIndex": 0,
         "_index": 0,
@@ -61,7 +61,7 @@ exports[`e2e:comments > should parse yaml comments ("multiline/01.txt",undefined
         "line": 1,
         "offset": 0,
       },
-      "type": "commentLineMarker",
+      "type": "commentMarker",
       "value": "#",
     },
   ],
@@ -82,7 +82,7 @@ exports[`e2e:comments > should parse yaml comments ("multiline/01.txt",undefined
         "line": 1,
         "offset": 0,
       },
-      "type": "commentLineMarker",
+      "type": "commentMarker",
       "value": "#",
     },
   ],
@@ -187,7 +187,7 @@ exports[`e2e:comments > should parse yaml comments ("multiline/01.txt",undefined
         "line": 2,
         "offset": 2,
       },
-      "type": "commentLineMarker",
+      "type": "commentMarker",
       "value": "#",
     },
   ],
@@ -208,7 +208,7 @@ exports[`e2e:comments > should parse yaml comments ("multiline/01.txt",undefined
         "line": 2,
         "offset": 2,
       },
-      "type": "commentLineMarker",
+      "type": "commentMarker",
       "value": "#",
     },
   ],
@@ -355,7 +355,7 @@ exports[`e2e:comments > should parse yaml comments ("multiline/01.txt",undefined
         "line": 3,
         "offset": 5,
       },
-      "type": "commentLineMarker",
+      "type": "commentMarker",
       "value": "#",
     },
   ],
@@ -376,7 +376,7 @@ exports[`e2e:comments > should parse yaml comments ("multiline/01.txt",undefined
         "line": 3,
         "offset": 5,
       },
-      "type": "commentLineMarker",
+      "type": "commentMarker",
       "value": "#",
     },
   ],
@@ -565,7 +565,7 @@ exports[`e2e:comments > should parse yaml comments ("multiline/01.txt",undefined
         "line": 4,
         "offset": 10,
       },
-      "type": "commentLineMarker",
+      "type": "commentMarker",
       "value": "#",
     },
   ],
@@ -586,7 +586,7 @@ exports[`e2e:comments > should parse yaml comments ("multiline/01.txt",undefined
         "line": 4,
         "offset": 10,
       },
-      "type": "commentLineMarker",
+      "type": "commentMarker",
       "value": "#",
     },
   ],
@@ -613,8 +613,7 @@ exports[`e2e:comments > should parse yaml comments ("multiline/01.txt",undefined
   [
     "exit",
     {
-      "_container": true,
-      "_kind": "hash",
+      "_kind": "line",
       "end": {
         "_bufferIndex": -1,
         "_index": 7,
@@ -622,6 +621,7 @@ exports[`e2e:comments > should parse yaml comments ("multiline/01.txt",undefined
         "line": 4,
         "offset": 11,
       },
+      "lang": "yaml",
       "start": {
         "_bufferIndex": 0,
         "_index": 0,
@@ -680,8 +680,7 @@ exports[`e2e:comments > should parse yaml comments ("multiline/02.txt",undefined
   [
     "enter",
     {
-      "_container": true,
-      "_kind": "hash",
+      "_kind": "line",
       "end": {
         "_bufferIndex": -1,
         "_index": 6,
@@ -689,6 +688,7 @@ exports[`e2e:comments > should parse yaml comments ("multiline/02.txt",undefined
         "line": 4,
         "offset": 63,
       },
+      "lang": "yaml",
       "start": {
         "_bufferIndex": 4,
         "_index": 3,
@@ -736,7 +736,7 @@ exports[`e2e:comments > should parse yaml comments ("multiline/02.txt",undefined
         "line": 3,
         "offset": 10,
       },
-      "type": "commentLineMarker",
+      "type": "commentMarker",
       "value": "#",
     },
   ],
@@ -757,7 +757,7 @@ exports[`e2e:comments > should parse yaml comments ("multiline/02.txt",undefined
         "line": 3,
         "offset": 10,
       },
-      "type": "commentLineMarker",
+      "type": "commentMarker",
       "value": "#",
     },
   ],
@@ -1090,7 +1090,7 @@ exports[`e2e:comments > should parse yaml comments ("multiline/02.txt",undefined
         "line": 4,
         "offset": 41,
       },
-      "type": "commentLineMarker",
+      "type": "commentMarker",
       "value": "#",
     },
   ],
@@ -1111,7 +1111,7 @@ exports[`e2e:comments > should parse yaml comments ("multiline/02.txt",undefined
         "line": 4,
         "offset": 41,
       },
-      "type": "commentLineMarker",
+      "type": "commentMarker",
       "value": "#",
     },
   ],
@@ -1284,8 +1284,7 @@ exports[`e2e:comments > should parse yaml comments ("multiline/02.txt",undefined
   [
     "exit",
     {
-      "_container": true,
-      "_kind": "hash",
+      "_kind": "line",
       "end": {
         "_bufferIndex": -1,
         "_index": 6,
@@ -1293,6 +1292,7 @@ exports[`e2e:comments > should parse yaml comments ("multiline/02.txt",undefined
         "line": 4,
         "offset": 63,
       },
+      "lang": "yaml",
       "start": {
         "_bufferIndex": 4,
         "_index": 3,
@@ -1351,8 +1351,7 @@ exports[`e2e:comments > should parse yaml comments ("no-eol/01.txt",undefined) 1
   [
     "enter",
     {
-      "_container": true,
-      "_kind": "hash",
+      "_kind": "line",
       "end": {
         "_bufferIndex": -1,
         "_index": 1,
@@ -1360,6 +1359,7 @@ exports[`e2e:comments > should parse yaml comments ("no-eol/01.txt",undefined) 1
         "line": 1,
         "offset": 35,
       },
+      "lang": "yaml",
       "start": {
         "_bufferIndex": 0,
         "_index": 0,
@@ -1407,7 +1407,7 @@ exports[`e2e:comments > should parse yaml comments ("no-eol/01.txt",undefined) 1
         "line": 1,
         "offset": 0,
       },
-      "type": "commentLineMarker",
+      "type": "commentMarker",
       "value": "#",
     },
   ],
@@ -1428,7 +1428,7 @@ exports[`e2e:comments > should parse yaml comments ("no-eol/01.txt",undefined) 1
         "line": 1,
         "offset": 0,
       },
-      "type": "commentLineMarker",
+      "type": "commentMarker",
       "value": "#",
     },
   ],
@@ -1703,8 +1703,7 @@ exports[`e2e:comments > should parse yaml comments ("no-eol/01.txt",undefined) 1
   [
     "exit",
     {
-      "_container": true,
-      "_kind": "hash",
+      "_kind": "line",
       "end": {
         "_bufferIndex": -1,
         "_index": 1,
@@ -1712,6 +1711,7 @@ exports[`e2e:comments > should parse yaml comments ("no-eol/01.txt",undefined) 1
         "line": 1,
         "offset": 35,
       },
+      "lang": "yaml",
       "start": {
         "_bufferIndex": 0,
         "_index": 0,
@@ -1770,8 +1770,7 @@ exports[`e2e:comments > should parse yaml comments ("no-eol/02.txt",undefined) 1
   [
     "enter",
     {
-      "_container": true,
-      "_kind": "hash",
+      "_kind": "line",
       "end": {
         "_bufferIndex": -1,
         "_index": 1,
@@ -1779,6 +1778,7 @@ exports[`e2e:comments > should parse yaml comments ("no-eol/02.txt",undefined) 1
         "line": 1,
         "offset": 20,
       },
+      "lang": "yaml",
       "start": {
         "_bufferIndex": 0,
         "_index": 0,
@@ -1826,7 +1826,7 @@ exports[`e2e:comments > should parse yaml comments ("no-eol/02.txt",undefined) 1
         "line": 1,
         "offset": 0,
       },
-      "type": "commentLineMarker",
+      "type": "commentMarker",
       "value": "#",
     },
   ],
@@ -1847,7 +1847,7 @@ exports[`e2e:comments > should parse yaml comments ("no-eol/02.txt",undefined) 1
         "line": 1,
         "offset": 0,
       },
-      "type": "commentLineMarker",
+      "type": "commentMarker",
       "value": "#",
     },
   ],
@@ -2080,8 +2080,7 @@ exports[`e2e:comments > should parse yaml comments ("no-eol/02.txt",undefined) 1
   [
     "exit",
     {
-      "_container": true,
-      "_kind": "hash",
+      "_kind": "line",
       "end": {
         "_bufferIndex": -1,
         "_index": 1,
@@ -2089,6 +2088,7 @@ exports[`e2e:comments > should parse yaml comments ("no-eol/02.txt",undefined) 1
         "line": 1,
         "offset": 20,
       },
+      "lang": "yaml",
       "start": {
         "_bufferIndex": 0,
         "_index": 0,
@@ -2147,8 +2147,7 @@ exports[`e2e:comments > should parse yaml comments ("opener-only/01.txt",undefin
   [
     "enter",
     {
-      "_container": true,
-      "_kind": "hash",
+      "_kind": "line",
       "end": {
         "_bufferIndex": -1,
         "_index": 1,
@@ -2156,6 +2155,7 @@ exports[`e2e:comments > should parse yaml comments ("opener-only/01.txt",undefin
         "line": 1,
         "offset": 1,
       },
+      "lang": "yaml",
       "start": {
         "_bufferIndex": 0,
         "_index": 0,
@@ -2203,7 +2203,7 @@ exports[`e2e:comments > should parse yaml comments ("opener-only/01.txt",undefin
         "line": 1,
         "offset": 0,
       },
-      "type": "commentLineMarker",
+      "type": "commentMarker",
       "value": "#",
     },
   ],
@@ -2224,7 +2224,7 @@ exports[`e2e:comments > should parse yaml comments ("opener-only/01.txt",undefin
         "line": 1,
         "offset": 0,
       },
-      "type": "commentLineMarker",
+      "type": "commentMarker",
       "value": "#",
     },
   ],
@@ -2251,8 +2251,7 @@ exports[`e2e:comments > should parse yaml comments ("opener-only/01.txt",undefin
   [
     "exit",
     {
-      "_container": true,
-      "_kind": "hash",
+      "_kind": "line",
       "end": {
         "_bufferIndex": -1,
         "_index": 1,
@@ -2260,6 +2259,7 @@ exports[`e2e:comments > should parse yaml comments ("opener-only/01.txt",undefin
         "line": 1,
         "offset": 1,
       },
+      "lang": "yaml",
       "start": {
         "_bufferIndex": 0,
         "_index": 0,
@@ -2318,8 +2318,7 @@ exports[`e2e:comments > should parse yaml comments ("opener-only/02.txt",undefin
   [
     "enter",
     {
-      "_container": true,
-      "_kind": "hash",
+      "_kind": "line",
       "end": {
         "_bufferIndex": -1,
         "_index": 2,
@@ -2327,6 +2326,7 @@ exports[`e2e:comments > should parse yaml comments ("opener-only/02.txt",undefin
         "line": 2,
         "offset": 2,
       },
+      "lang": "yaml",
       "start": {
         "_bufferIndex": 0,
         "_index": 0,
@@ -2374,7 +2374,7 @@ exports[`e2e:comments > should parse yaml comments ("opener-only/02.txt",undefin
         "line": 1,
         "offset": 0,
       },
-      "type": "commentLineMarker",
+      "type": "commentMarker",
       "value": "#",
     },
   ],
@@ -2395,7 +2395,7 @@ exports[`e2e:comments > should parse yaml comments ("opener-only/02.txt",undefin
         "line": 1,
         "offset": 0,
       },
-      "type": "commentLineMarker",
+      "type": "commentMarker",
       "value": "#",
     },
   ],
@@ -2466,8 +2466,7 @@ exports[`e2e:comments > should parse yaml comments ("opener-only/02.txt",undefin
   [
     "exit",
     {
-      "_container": true,
-      "_kind": "hash",
+      "_kind": "line",
       "end": {
         "_bufferIndex": -1,
         "_index": 2,
@@ -2475,6 +2474,7 @@ exports[`e2e:comments > should parse yaml comments ("opener-only/02.txt",undefin
         "line": 2,
         "offset": 2,
       },
+      "lang": "yaml",
       "start": {
         "_bufferIndex": 0,
         "_index": 0,
@@ -2533,8 +2533,7 @@ exports[`e2e:comments > should parse yaml comments ("opener-only/03.txt",undefin
   [
     "enter",
     {
-      "_container": true,
-      "_kind": "hash",
+      "_kind": "line",
       "end": {
         "_bufferIndex": -1,
         "_index": 1,
@@ -2542,6 +2541,7 @@ exports[`e2e:comments > should parse yaml comments ("opener-only/03.txt",undefin
         "line": 1,
         "offset": 2,
       },
+      "lang": "yaml",
       "start": {
         "_bufferIndex": 0,
         "_index": 0,
@@ -2589,7 +2589,7 @@ exports[`e2e:comments > should parse yaml comments ("opener-only/03.txt",undefin
         "line": 1,
         "offset": 0,
       },
-      "type": "commentLineMarker",
+      "type": "commentMarker",
       "value": "#",
     },
   ],
@@ -2610,7 +2610,7 @@ exports[`e2e:comments > should parse yaml comments ("opener-only/03.txt",undefin
         "line": 1,
         "offset": 0,
       },
-      "type": "commentLineMarker",
+      "type": "commentMarker",
       "value": "#",
     },
   ],
@@ -2679,8 +2679,7 @@ exports[`e2e:comments > should parse yaml comments ("opener-only/03.txt",undefin
   [
     "exit",
     {
-      "_container": true,
-      "_kind": "hash",
+      "_kind": "line",
       "end": {
         "_bufferIndex": -1,
         "_index": 1,
@@ -2688,6 +2687,7 @@ exports[`e2e:comments > should parse yaml comments ("opener-only/03.txt",undefin
         "line": 1,
         "offset": 2,
       },
+      "lang": "yaml",
       "start": {
         "_bufferIndex": 0,
         "_index": 0,
@@ -2746,8 +2746,7 @@ exports[`e2e:comments > should parse yaml comments ("opener-only/04.txt",undefin
   [
     "enter",
     {
-      "_container": true,
-      "_kind": "hash",
+      "_kind": "line",
       "end": {
         "_bufferIndex": -1,
         "_index": 2,
@@ -2755,6 +2754,7 @@ exports[`e2e:comments > should parse yaml comments ("opener-only/04.txt",undefin
         "line": 2,
         "offset": 3,
       },
+      "lang": "yaml",
       "start": {
         "_bufferIndex": 0,
         "_index": 0,
@@ -2802,7 +2802,7 @@ exports[`e2e:comments > should parse yaml comments ("opener-only/04.txt",undefin
         "line": 1,
         "offset": 0,
       },
-      "type": "commentLineMarker",
+      "type": "commentMarker",
       "value": "#",
     },
   ],
@@ -2823,7 +2823,7 @@ exports[`e2e:comments > should parse yaml comments ("opener-only/04.txt",undefin
         "line": 1,
         "offset": 0,
       },
-      "type": "commentLineMarker",
+      "type": "commentMarker",
       "value": "#",
     },
   ],
@@ -2936,8 +2936,7 @@ exports[`e2e:comments > should parse yaml comments ("opener-only/04.txt",undefin
   [
     "exit",
     {
-      "_container": true,
-      "_kind": "hash",
+      "_kind": "line",
       "end": {
         "_bufferIndex": -1,
         "_index": 2,
@@ -2945,6 +2944,7 @@ exports[`e2e:comments > should parse yaml comments ("opener-only/04.txt",undefin
         "line": 2,
         "offset": 3,
       },
+      "lang": "yaml",
       "start": {
         "_bufferIndex": 0,
         "_index": 0,

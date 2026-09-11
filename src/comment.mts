@@ -8,6 +8,7 @@ import {
   codes,
   constants,
   kind,
+  lang,
   tt
 } from '@flex-development/docmark-util-symbol'
 import type {
@@ -30,7 +31,7 @@ import { ok as assert } from 'devlop'
 const comment: ContinuableConstruct & NamedConstruct = {
   continuation: { tokenize: tokenizeYamlCommentContinuation },
   exit: exitYamlComment,
-  name: `${tt.comment}:yaml`,
+  name: `${tt.comment}:${lang.yaml}`,
   tokenize: tokenizeYamlComment
 }
 
@@ -118,7 +119,7 @@ function tokenizeYamlComment(
 
     // open the comment container if not already open.
     if (!self.containerState.open) {
-      effects.enter(tt.comment, { _container: true, _kind: kind.hash })
+      effects.enter(tt.comment, { _kind: kind.line, lang: lang.yaml })
       self.containerState.open = true
     }
 
@@ -126,9 +127,9 @@ function tokenizeYamlComment(
     effects.enter(tt.commentLinePrefix)
 
     // capture comment line marker.
-    effects.enter(tt.commentLineMarker)
+    effects.enter(tt.commentMarker)
     effects.consume(code)
-    effects.exit(tt.commentLineMarker)
+    effects.exit(tt.commentMarker)
 
     // capture optional padding.
     return factorySpace(
